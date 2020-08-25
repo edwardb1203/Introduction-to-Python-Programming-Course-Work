@@ -22,4 +22,5 @@
     "python.testing.pytestArgs": [],
     "python.envFile": "${workspaceFolder}/.env",
     "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python",
+    "python.analysis.typeCheckingMode": "strict",
 }
