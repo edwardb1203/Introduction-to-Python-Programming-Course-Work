@@ -1,8 +1,10 @@
-"""My attempt at the infamous shadow clone jutsu."""
-"""Attempt at 10 points, broke down the naruto function into individual components to avoid complexity."""
-"""Also created rectangle function to further decrease complexity, as it is used multiple times."""
-"""Attempt at 5 points, I created a scene more complex than could be achieved with 4 components."""
-"""Also used background color change from turtle documentation page."""
+"""My attempt at the infamous shadow clone jutsu.
+
+Attempt at 10 points, broke down the naruto function into individual components to avoid complexity.
+Also created rectangle function to further decrease complexity, as it is used multiple times.
+Attempt at 5 points, I created a scene more complex than could be achieved with 4 components.
+Also used background color change from turtle documentation page.
+"""
 
 __author__ = "730312903"
 
@@ -13,9 +15,9 @@ MAX_SPEED: int = 0
 SHIFT: int = 200
 SHIFT2: int = 350
 MODE: int = 255
-SUIT_COLOR: int = (252, 147, 13)
-HAIR_COLOR: int = (254, 232, 42)
-SKIN_COLOR: int = (255, 227, 158)
+SUIT_COLOR = tuple = (252, 147, 13)
+HAIR_COLOR = tuple = (254, 232, 42)
+SKIN_COLOR = tuple = (255, 227, 158)
 bgcolor("cyan")
 # NOTE to grader, turtles are imported at bottom for cleaner code
 

@@ -24,3 +24,4 @@ Newly_Infected: int = round(float(Viral_Growth_Rate ** float((time_elapsed - 1))
 Previous_infected = Total_infections
 Total_infections = round(int(Newly_Infected + Previous_infected))
 print("t" + str(time_elapsed - 1) + " - New: " + str(Newly_Infected) + " - Total: " + str(Total_infections))
+

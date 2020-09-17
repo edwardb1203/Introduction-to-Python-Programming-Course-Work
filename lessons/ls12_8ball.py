@@ -18,11 +18,10 @@ def response(n: int) -> str:
     """Given a number, return a response of the 8ball."""
     if n == 0:
         return "Definitely, yes!"
+    elif n == 1:
+        return "Ask again later."
     else:
-        if n == 1:
-            return "Ask again later."
-        else:
-            return "Unlikely."
+        return "Unlikely."
 
 
 # Python Idiom (Convention) for a runnable Python module
