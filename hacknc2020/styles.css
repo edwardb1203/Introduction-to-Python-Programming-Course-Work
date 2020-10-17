@@ -1,0 +1,39 @@
+Html{
+    background-color: orangered;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: orangered
+}
+.green {
+    color: white
+}
+.red{
+    color: white
+}
+.homework-todo {
+    width: 150px;
+    background-color: brown
+}
+.button{
+    padding: 10px;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
+
+.header{
+    color: white
+}
+
+.small-header{
+    color: white
+}
+
