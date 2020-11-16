@@ -1,5 +1,11 @@
 """2020 hackathon! Schedule hack!"""
 authors: "EDWARD BAKER, CHRISTOPHER NGUYEN, GEOFFREY FORSYTHE"
+# We created an educational organizational hack to help students organize their homework
+# and plan out time needed to do what,
+# the program will take subjects and types of homework and based off of the info
+# calculate the estimated time needed and give a list of what needs to be done for the day
+# and provide a random motivational message
+
 from random import randint
 from typing import List, Dict
 

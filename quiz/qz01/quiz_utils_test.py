@@ -60,16 +60,16 @@ data: List[str] =  ["high,low, precipitation",
 ]
 
 
-def test_avg_column_high() -> None:
-    """Tests to see if function works given high."""
-    avg_column(data, "high") == 73.5
+# def test_avg_column_high() -> None:
+#     """Tests to see if function works given high."""
+#     avg_column(data, "high") == 73.5
 
 
-def test_avg_column_low() -> None:
-    """Tests to see if function works given low."""
-    avg_column(data, "low") == 50.75
+# def test_avg_column_low() -> None:
+#     """Tests to see if function works given low."""
+#     avg_column(data, "low") == 50.75
 
 
-def test_avg_column_precipitation() -> None:
-    """Tests to see if function works given precipitation."""
-    avg_column(data, "precipitation") == 0.1
+# def test_avg_column_precipitation() -> None:
+#     """Tests to see if function works given precipitation."""
+#     avg_column(data, "precipitation") == 0.1
